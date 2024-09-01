@@ -1,0 +1,17 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+training_data:
+  type: CustomDatasets.training_data.ImageDataGeneratorDataset
+  filepath: data/01_raw/trainingData
+
+testing_data:
+  type: CustomDatasets.testing_data.ImageDataGeneratorDataset
+  filepath: data/01_raw/testingData
+
+final_model:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
+  dataset:
+    type: pickle.PickleDataset
+    filepath: data/06_models/model_new.pkl
