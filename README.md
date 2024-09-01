@@ -2,9 +2,11 @@
 
 ## Overview
 
-This is your new Kedro project, which was generated using `kedro 0.19.8`.
+This is a sign-to-text conversion project which is created using `kedro 0.19.8`.
 
-Take a look at the [Kedro documentation](https://docs.kedro.org) to get started.
+Take a look at the [Kedro documentation](https://docs.kedro.org) to get started. \
+\
+Sign to Text Conversion is a project focused on translating sign language into written text, leveraging deep learning techniques and computer vision. The main goal is to bridge the communication gap between individuals who use sign language and those who do not understand it, enabling more accessible and inclusive communication.
 
 ## Rules and guidelines
 
